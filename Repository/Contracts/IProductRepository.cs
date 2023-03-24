@@ -1,4 +1,4 @@
-﻿using Entities;
+﻿using FunAndBooksEntities.Entities;
 using FunAndBooksRepository.Contracts;
 using System;
 using System.Collections.Generic;

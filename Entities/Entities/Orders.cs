@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities
+namespace FunAndBooksEntities.Entities
 {
 
     public class Orders
@@ -15,6 +15,8 @@ namespace Entities
         public DateTime OrderDate { get; set; }
 
         public int? ShipmentId { get; set; }
+        public int UnitsOrdered { get; set; }
+        public int ToralPrice { get; set; }
 
         [ForeignKey("CustomerAccount")]
         public int CustomerId { get; set; }
