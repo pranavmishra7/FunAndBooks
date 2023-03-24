@@ -14,7 +14,7 @@ namespace FunAndBooksEntities.Entities
         public string ImageUrl { get; set; }
         public string Genre { get; set; }
         public string Description { get; set; }
-        public decimal Price { get; set; }
+        public decimal UnitPrice { get; set; }
 
         [ForeignKey("Category")]
         public int CategoryID { get; set; }
