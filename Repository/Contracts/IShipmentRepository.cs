@@ -6,9 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository.Contracts
+namespace FunAndBooksRepository.Contracts
 {
-    internal interface IShipmentRepository:IBaseRepository<Shipment>
+    public interface IShipmentRepository:IBaseRepository<Shipment>
     {
+        int AddShipment(Shipment shipment);
+        int UpdateShipment(Shipment shipment);
     }
 }

@@ -6,9 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository.Contracts
+namespace FunAndBooksRepository.Contracts
 {
-    public interface OrderRepository:IBaseRepository<Orders>
+    public interface IOrderRepository:IBaseRepository<Orders>
     {
+        int AddOrders(Orders orders);
+        int UpdateOrders(Orders orders);
     }
 }

@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace FunAndBooksRepository.Catalog
 {
-    public class GenericRepository<T> : IBaseRepository<T> where T : class
+    public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
-        private readonly AppDbContext _context;
-        public GenericRepository(AppDbContext context)
+        protected readonly AppDbContext _context;
+        public BaseRepository(AppDbContext context)
         {
             _context= context;
         }

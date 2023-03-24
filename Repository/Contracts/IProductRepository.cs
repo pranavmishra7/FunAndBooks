@@ -6,9 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository.Contracts
+namespace FunAndBooksRepository.Contracts
 {
-    internal interface ProductRepository:IBaseRepository<Products>
+    public interface IProductRepository:IBaseRepository<Products>
     {
+        int AddProducts(Products products);
+        int UpdateProducts(Products products); 
     }
 }

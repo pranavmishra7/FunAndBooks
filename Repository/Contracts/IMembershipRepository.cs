@@ -9,5 +9,7 @@ namespace FunAndBooksRepository.Contracts
 {
     public interface IMembershipRepository:IBaseRepository<Membership>
     {
+        int AddMembership(Membership membership);
+        int UpdateMembership(Membership membership);
     }
 }

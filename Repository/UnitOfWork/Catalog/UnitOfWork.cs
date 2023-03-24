@@ -76,7 +76,7 @@ namespace FunAndBooksRepository.UnitOfWork.Catalog
             _disposed = true;
         }
 
-        public GenericRepository<T> GenericRepository<T>() where T : class
+        public BaseRepository<T> GenericRepository<T>() where T : class
         {
             if (_repositories == null)
                 _repositories = new Dictionary<string, object>();
@@ -85,11 +85,11 @@ namespace FunAndBooksRepository.UnitOfWork.Catalog
 
             if (!_repositories.ContainsKey(type))
             {
-                var repositoryType = typeof(GenericRepository<T>);
+                var repositoryType = typeof(BaseRepository<T>);
                 var repositoryInstance = Activator.CreateInstance(repositoryType.MakeGenericType(typeof(T)), _context);
                 _repositories.Add(type, repositoryInstance);
             }
-            return (GenericRepository<T>)_repositories[type];
+            return (BaseRepository<T>)_repositories[type];
         }
     }
 }

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunAndBooksBusinessLogic", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunAndBooksShared", "FunAndBooksShared\FunAndBooksShared.csproj", "{E396D27C-34F6-4A30-81DD-93A841AC9296}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunAndBooksTest", "FunAndBooksTest", "{66F85401-506B-4EDF-9897-8C2104FF8882}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
