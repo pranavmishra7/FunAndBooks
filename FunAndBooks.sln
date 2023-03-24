@@ -5,11 +5,11 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunAndBooks", "FunAndBooks\FunAndBooks.csproj", "{63EC3E32-B4D3-4B0C-8A35-8BE857E96423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{3BE89A7D-2019-42B0-999B-A2EACD02DF46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunAndBooksEntities", "Entities\FunAndBooksEntities.csproj", "{3BE89A7D-2019-42B0-999B-A2EACD02DF46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{699486DF-CD12-4BF0-BBF7-8C03E1D60148}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunAndBooksRepository", "Repository\FunAndBooksRepository.csproj", "{699486DF-CD12-4BF0-BBF7-8C03E1D60148}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto", "Dto\Dto.csproj", "{B0A072FD-B6B1-4F3E-A554-7F11E2195662}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunAndBooksDto", "Dto\FunAndBooksDto.csproj", "{B0A072FD-B6B1-4F3E-A554-7F11E2195662}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

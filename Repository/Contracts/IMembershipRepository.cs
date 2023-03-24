@@ -1,14 +1,13 @@
 ﻿using Entities;
-using FunAndBooksRepository.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repository.Contracts
+namespace FunAndBooksRepository.Contracts
 {
-    public interface OrderRepository:IBaseRepository<Orders>
+    public interface IMembershipRepository:IBaseRepository<Membership>
     {
     }
 }
